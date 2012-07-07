@@ -5,8 +5,5 @@
   "keywords": [],
   "author": "sethvincent <sethvincent@gmail.com>",
   "dependencies": {},
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
+  "devDependencies": {},
 }
