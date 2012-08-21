@@ -24,6 +24,13 @@ p > a {
   font-weight: 700;
 }
 
+hr {
+  border-top: 1px solid #ededed;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
 /* layout and grid */
 .container { 
   position: relative; 
