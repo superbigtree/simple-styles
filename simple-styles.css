@@ -31,6 +31,10 @@ hr {
   border-left: none;
 }
 
+.wf-loading {
+  visibility: hidden;
+}
+
 /* layout and grid */
 .container { 
   position: relative; 
