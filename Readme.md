@@ -33,15 +33,15 @@ Do what works for you.
   - ui elements like alerts, breadcrumbs, tabs, nav, pagination, etc.
 
 ### currently uses/emulates these projects:
-- __skeleton__
+- *skeleton*
   - adopted and revised skeleton's grid style.
   - copied css for .clearfix and other clearing
 
-- __320andup__
+- *320andup*
   - based the media queries primarily on 320andup. it's actually mobile first. it's weird how some other css frameworks don't do that.
-- __twitter's bootstrap__ 
+- *twitter's bootstrap* 
   - i revised some of the grid stuff based on what i learned from bootstrap.
-- __eric meyer's css reset__
+- *eric meyer's css reset*
 
 
 ## License 
