@@ -32,7 +32,7 @@ padding-bottom: 10px;
 
 hr {
   border-top: 1px solid #e2e2e2;
-  margin: 0 0 20px;
+  margin: 0 0 20px 0;
 }
 
 small {
@@ -273,7 +273,7 @@ select:focus {
   }
 
   .container { 
-    width: 748px;
+    width: 640px;
   }
   
   [class*="columns-"] { 
@@ -285,39 +285,39 @@ select:focus {
   .container [class*="columns-"] .row {    
   }
 
-  .columns-1            { width: 28px;  }
-  .columns-2            { width: 76px;  }
-  .columns-3            { width: 124px; }
-  .columns-4            { width: 172px; }
-  .columns-5            { width: 220px; }
-  .columns-6            { width: 268px; }
-  .columns-7            { width: 316px; }
-  .columns-8            { width: 364px; }
-  .columns-9            { width: 412px; }
-  .columns-10           { width: 460px; }
-  .columns-11           { width: 508px; }
-  .columns-12           { width: 556px; }
-  .columns-13           { width: 604px; }
-  .columns-14           { width: 652px; }
-  .columns-15           { width: 700px; }
-  .columns-16           { width: 748px; }
+  .columns-1            { width: 20px;  }
+  .columns-2            { width: 60px;  }
+  .columns-3            { width: 100px; }
+  .columns-4            { width: 140px; }
+  .columns-5            { width: 180px; }
+  .columns-6            { width: 220px; }
+  .columns-7            { width: 260px; }
+  .columns-8            { width: 300px; }
+  .columns-9            { width: 340px; }
+  .columns-10           { width: 380px; }
+  .columns-11           { width: 420px; }
+  .columns-12           { width: 460px; }
+  .columns-13           { width: 500px; }
+  .columns-14           { width: 540px; }
+  .columns-15           { width: 580px; }
+  .columns-16           { width: 640px; }
   
   /* for offseting elements */
-  .offset-1             { margin-left: 68px  }
-  .offset-2             { margin-left: 116px }
-  .offset-3             { margin-left: 164px }
-  .offset-4             { margin-left: 212px }
-  .offset-5             { margin-left: 260px }
-  .offset-6             { margin-left: 308px }
-  .offset-7             { margin-left: 356px }
-  .offset-8             { margin-left: 434px }
-  .offset-9             { margin-left: 500px }
-  .offset-10            { margin-left: 480px }
-  .offset-11            { margin-left: 596px }
-  .offset-12            { margin-left: 548px }
-  .offset-13            { margin-left: 644px }
-  .offset-14            { margin-left: 692px }
-  .offset-15            { margin-left: 740px }
+  .offset-1             { margin-left: 40px  }
+  .offset-2             { margin-left: 80px  }
+  .offset-3             { margin-left: 120px }
+  .offset-4             { margin-left: 180px }
+  .offset-5             { margin-left: 220px }
+  .offset-6             { margin-left: 260px }
+  .offset-7             { margin-left: 300px }
+  .offset-8             { margin-left: 340px }
+  .offset-9             { margin-left: 380px }
+  .offset-10            { margin-left: 420px }
+  .offset-11            { margin-left: 460px }
+  .offset-12            { margin-left: 500px }
+  .offset-13            { margin-left: 540px }
+  .offset-14            { margin-left: 580px }
+  .offset-15            { margin-left: 620px }
 }
 
 @media only screen and (min-width: 960px) {
@@ -349,21 +349,21 @@ select:focus {
   .columns-16           { width: 940px; }
   
   /* for offseting elements */
-  .offset-1             { margin-left: 80px  }
-  .offset-2             { margin-left: 140px }
-  .offset-3             { margin-left: 200px }
-  .offset-4             { margin-left: 260px }
-  .offset-5             { margin-left: 320px }
-  .offset-6             { margin-left: 380px }
-  .offset-7             { margin-left: 440px }
-  .offset-8             { margin-left: 500px }
-  .offset-9             { margin-left: 560px }
-  .offset-10            { margin-left: 620px }
-  .offset-11            { margin-left: 680px }
-  .offset-12            { margin-left: 780px }
-  .offset-13            { margin-left: 800px }
-  .offset-14            { margin-left: 860px }
-  .offset-15            { margin-left: 920px }
+  .offset-1             { margin-left: 60px  }
+  .offset-2             { margin-left: 120px }
+  .offset-3             { margin-left: 180px }
+  .offset-4             { margin-left: 240px }
+  .offset-5             { margin-left: 300px }
+  .offset-6             { margin-left: 360px }
+  .offset-7             { margin-left: 420px }
+  .offset-8             { margin-left: 480px }
+  .offset-9             { margin-left: 540px }
+  .offset-10            { margin-left: 600px }
+  .offset-11            { margin-left: 660px }
+  .offset-12            { margin-left: 720px }
+  .offset-13            { margin-left: 780px }
+  .offset-14            { margin-left: 840px }
+  .offset-15            { margin-left: 900px }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -390,21 +390,21 @@ select:focus {
   .columns-16           { width: 1100px; }
   
   /* for offseting elements */
-  .offset-1             { margin-left: 100px  }
-  .offset-2             { margin-left: 180px }
-  .offset-3             { margin-left: 260px }
-  .offset-4             { margin-left: 340px }
-  .offset-5             { margin-left: 420px }
-  .offset-6             { margin-left: 500px }
-  .offset-7             { margin-left: 580px }
-  .offset-8             { margin-left: 660px }
-  .offset-9             { margin-left: 740px }
-  .offset-10            { margin-left: 820px }
-  .offset-11            { margin-left: 900px }
-  .offset-12            { margin-left: 980px }
-  .offset-13            { margin-left: 1060px }
-  .offset-14            { margin-left: 1140px }
-  .offset-15            { margin-left: 1220px }
+  .offset-1             { margin-left: 70px  }
+  .offset-2             { margin-left: 140px }
+  .offset-3             { margin-left: 210px }
+  .offset-4             { margin-left: 280px }
+  .offset-5             { margin-left: 350px }
+  .offset-6             { margin-left: 420px }
+  .offset-7             { margin-left: 490px }
+  .offset-8             { margin-left: 560px }
+  .offset-9             { margin-left: 630px }
+  .offset-10            { margin-left: 700px }
+  .offset-11            { margin-left: 770px }
+  .offset-12            { margin-left: 840px }
+  .offset-13            { margin-left: 910px }
+  .offset-14            { margin-left: 980px }
+  .offset-15            { margin-left: 1050px }
 }
 
 /* Clearing
