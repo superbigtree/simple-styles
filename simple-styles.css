@@ -10,6 +10,13 @@ html, body, input, button, select, textarea {
   height: 100%;
 }
 
+/* Use border-box box model */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   -webkit-transition: color 200ms linear;
@@ -19,8 +26,8 @@ a {
   transition: color 200ms linear;
 }
 
-p > a {
-  font-weight: 700;
+p {
+padding-bottom: 10px;
 }
 
 hr {
@@ -30,9 +37,19 @@ hr {
   border-left: none;
 }
 
+small {
+  font-size: 12px;
+}
+
 /* a snippet for smoother web-font loading, often used with typekit.com fonts */
 .wf-loading {
   visibility: hidden;
+}
+
+/* utility classes */
+
+.fixed {
+  position: fixed;
 }
 
 /* forms */
@@ -128,8 +145,8 @@ select:focus {
 /* layout and grid */
 
 .row {
-  margin-left: 0;
 }
+
 
 .left { 
   margin-left: 0;
@@ -148,7 +165,7 @@ select:focus {
 }
 
 [class*="columns-"] { 
-  margin: 10px auto 10px auto;
+  margin: 20px auto 0 auto;
 }
 
 .column-1,
@@ -203,7 +220,7 @@ select:focus {
   }
   
   [class*="columns-"] { 
-    margin: 10px auto 10px auto;
+    margin: 20px auto 0px auto;
   }
 
   .column-1,
@@ -236,7 +253,7 @@ select:focus {
   }
   
   [class*="columns-"] { 
-    margin: 10px auto 10px auto;
+    margin: 20px auto 0px auto;
   }
 
   .column-1,
@@ -263,11 +280,11 @@ select:focus {
 }
 
 @media only screen and (min-width: 768px) {
-
+  
   .row {
     margin-left: -20px;
   }
-  
+
   .container { 
     width: 748px;
   }
@@ -275,8 +292,10 @@ select:focus {
   [class*="columns-"] { 
     float: left; 
     display: inline; 
-    margin-left: 20px; 
-    margin-right: 0px; 
+    margin: 20px 0px 0px 20px; 
+  }
+  
+  .container [class*="columns-"] .row {    
   }
 
   .columns-1           { width: 28px;  }
@@ -331,10 +350,7 @@ select:focus {
     display: inline; 
   }
   
-  .container .columns-1 {
-    width: 40px;
-  }
-  
+  .columns-1                   { width: 40px; }
   .columns-2                   { width: 100px; }
   .columns-3                   { width: 160px; }
   .columns-4                   { width: 220px; }
@@ -379,31 +395,25 @@ select:focus {
 @media only screen and (min-width: 1280px) {
 
   .container {
-    width: 1260px;
+    width: 1100px;
   }
 
-  .container .columns-1 {
-    width: 60px;
-  }
-
-  .columns-2                    { width: 140px; }
-  .columns-3                    { width: 220px; }
-  .columns-4                    { width: 300px; }
-  .columns-5                    { width: 380px; }
-  .columns-6                    { width: 460px; }
-  .columns-7                    { width: 540px; }
-  .columns-8                    { width: 620px; }
-  .columns-9                    { width: 700px; }
-  .columns-10                   { width: 780px; }
-  .columns-11                   { width: 860px; }
-  .columns-12                   { width: 940px; }
-  .columns-13                   { width: 1020px; }
-  .columns-14                   { width: 1100px; }
-  .columns-15                   { width: 1180px; }
-  .columns-16                   { width: 1260px; }
-
-  .columns-one-third            { width: 460px; }
-  .columns-two-thirds           { width: 780px; }
+  .columns-1                    { width: 50px; }
+  .columns-2                    { width: 120px; }
+  .columns-3                    { width: 190px; }
+  .columns-4                    { width: 260px; }
+  .columns-5                    { width: 330px; }
+  .columns-6                    { width: 400px; }
+  .columns-7                    { width: 470px; }
+  .columns-8                    { width: 540px; }
+  .columns-9                    { width: 610px; }
+  .columns-10                   { width: 680px; }
+  .columns-11                   { width: 750px; }
+  .columns-12                   { width: 820px; }
+  .columns-13                   { width: 890px; }
+  .columns-14                   { width: 960px; }
+  .columns-15                   { width: 1030px; }
+  .columns-16                   { width: 1120px; }
   
   /* for offseting elements */
   .offset-1            { margin-left: 100px  }
@@ -430,12 +440,26 @@ select:focus {
 ================================================== */
 
 /* Self Clearing Goodness */
-.container:after {
-  content: "\0020"; 
+.container:after,
+.clearfix:after,
+.row:after, {
+  content: "."; 
   display: block; 
   height: 0; 
   clear: both; 
   visibility: hidden;
+  font-size: 0;
+}
+
+/* float clearing for IE6 */
+* html .clearfix {
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*:first-child + html .clearfix {
+  min-height: 1%;
 }
 
 /* Use clearfix class on parent to clear nested columns,
@@ -450,11 +474,6 @@ or wrap each row of columns in a <div class="row"> */
   visibility: hidden;
   width: 0;
   height: 0; 
-  clear: both;
-}
-
-.row:after,
-.clearfix:after {
   clear: both;
 }
 
