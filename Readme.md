@@ -36,6 +36,7 @@ Do what works for you.
 - __skeleton__
   - adopted and revised skeleton's grid style.
   - copied css for .clearfix and other clearing
+
 - __320andup__
   - based the media queries primarily on 320andup. it's actually mobile first. it's weird how some other css frameworks don't do that.
 - __twitter's bootstrap__ 
