@@ -1,0 +1,5 @@
+{
+  "name": "simple-styles",
+  "version": "0.0.1",
+  "main": ["./simple-styles.css"],
+}
