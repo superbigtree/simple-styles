@@ -166,7 +166,6 @@ select:focus {
   margin: 20px auto 0 auto;
 }
 
-.column-1,
 .columns-1,
 .columns-2,
 .columns-3,
@@ -182,9 +181,7 @@ select:focus {
 .columns-13,
 .columns-14,
 .columns-15,
-.columns-16,
-.columns-one-third,
-.columns-two-thirds {
+.columns-16 {
   width: 300px;
 }
 
@@ -202,9 +199,7 @@ select:focus {
 .offset-12,
 .offset-13,
 .offset-14,
-.offset-15,
-.offset-one-third,
-.offset-two-thirds {
+.offset-15 {
   margin-left: 0;
 }
 
@@ -214,14 +209,13 @@ select:focus {
   }
   
   .container { 
-    width: 460px;
+    width: 440px;
   }
   
   [class*="columns-"] { 
     margin: 20px auto 0px auto;
   }
 
-  .column-1,
   .columns-1,
   .columns-2,
   .columns-3,
@@ -237,24 +231,21 @@ select:focus {
   .columns-13,
   .columns-14,
   .columns-15,
-  .columns-16,
-  .columns-one-third,
-  .columns-two-thirds {
-    width: 460px; 
+  .columns-16 {
+    width: 440px; 
   }
 }
 
 @media only screen and (min-width: 600px) {
 
   .container { 
-    width: 580px;
+    width: 560px;
   }
   
   [class*="columns-"] { 
     margin: 20px auto 0px auto;
   }
 
-  .column-1,
   .columns-1,
   .columns-2,
   .columns-3,
@@ -270,10 +261,8 @@ select:focus {
   .columns-13,
   .columns-14,
   .columns-15,
-  .columns-16,
-  .columns-one-third,
-  .columns-two-thirds { 
-    width: 580px; 
+  .columns-16 { 
+    width: 560px; 
   }
 }
 
@@ -296,45 +285,39 @@ select:focus {
   .container [class*="columns-"] .row {    
   }
 
-  .columns-1           { width: 28px;  }
-  .columns-2           { width: 76px;  }
-  .columns-3           { width: 124px; }
-  .columns-4           { width: 172px; }
-  .columns-5           { width: 220px; }
-  .columns-6           { width: 268px; }
-  .columns-7           { width: 316px; }
-  .columns-8           { width: 364px; }
-  .columns-9           { width: 412px; }
-  .columns-10          { width: 460px; }
-  .columns-11          { width: 508px; }
-  .columns-12          { width: 556px; }
-  .columns-13          { width: 604px; }
-  .columns-14          { width: 652px; }
-  .columns-15          { width: 700px; }
-  .columns-16          { width: 748px; }
-
-  .columns-one-third   { width: 256px; }
-  .columns-two-thirds  { width: 512px; }
+  .columns-1            { width: 28px;  }
+  .columns-2            { width: 76px;  }
+  .columns-3            { width: 124px; }
+  .columns-4            { width: 172px; }
+  .columns-5            { width: 220px; }
+  .columns-6            { width: 268px; }
+  .columns-7            { width: 316px; }
+  .columns-8            { width: 364px; }
+  .columns-9            { width: 412px; }
+  .columns-10           { width: 460px; }
+  .columns-11           { width: 508px; }
+  .columns-12           { width: 556px; }
+  .columns-13           { width: 604px; }
+  .columns-14           { width: 652px; }
+  .columns-15           { width: 700px; }
+  .columns-16           { width: 748px; }
   
   /* for offseting elements */
-  .offset-1            { margin-left: 68px  }
-  .offset-2            { margin-left: 116px }
-  .offset-3            { margin-left: 164px }
-  .offset-4            { margin-left: 212px }
-  .offset-5            { margin-left: 260px }
-  .offset-6            { margin-left: 308px }
-  .offset-7            { margin-left: 356px }
-  .offset-8            { margin-left: 434px }
-  .offset-9            { margin-left: 500px }
-  .offset-10           { margin-left: 480px }
-  .offset-11           { margin-left: 596px }
-  .offset-12           { margin-left: 548px }
-  .offset-13           { margin-left: 644px }
-  .offset-14           { margin-left: 692px }
-  .offset-15           { margin-left: 740px }
-  
-  .offset-one-third    { margin-left: 256px }
-  .offset-two-thirds   { margin-left: 512px }
+  .offset-1             { margin-left: 68px  }
+  .offset-2             { margin-left: 116px }
+  .offset-3             { margin-left: 164px }
+  .offset-4             { margin-left: 212px }
+  .offset-5             { margin-left: 260px }
+  .offset-6             { margin-left: 308px }
+  .offset-7             { margin-left: 356px }
+  .offset-8             { margin-left: 434px }
+  .offset-9             { margin-left: 500px }
+  .offset-10            { margin-left: 480px }
+  .offset-11            { margin-left: 596px }
+  .offset-12            { margin-left: 548px }
+  .offset-13            { margin-left: 644px }
+  .offset-14            { margin-left: 692px }
+  .offset-15            { margin-left: 740px }
 }
 
 @media only screen and (min-width: 960px) {
@@ -348,46 +331,39 @@ select:focus {
     display: inline; 
   }
   
-  .columns-1                   { width: 40px; }
-  .columns-2                   { width: 100px; }
-  .columns-3                   { width: 160px; }
-  .columns-4                   { width: 220px; }
-  .columns-5                   { width: 280px; }
-  .columns-6                   { width: 340px; }
-  .columns-7                   { width: 400px; }
-  .columns-8                   { width: 460px; }
-  .columns-9                   { width: 520px; }
-  .columns-10                  { width: 580px; }
-  .columns-11                  { width: 640px; }
-  .columns-12                  { width: 700px; }
-  .columns-13                  { width: 760px; }
-  .columns-14                  { width: 820px; }
-  .columns-15                  { width: 880px; }
-  .columns-16                  { width: 940px; }
-
-  .columns-one-third           { width: 280px; }
-  .columns-two-thirds          { width: 600px; }
+  .columns-1            { width: 40px; }
+  .columns-2            { width: 100px; }
+  .columns-3            { width: 160px; }
+  .columns-4            { width: 220px; }
+  .columns-5            { width: 280px; }
+  .columns-6            { width: 340px; }
+  .columns-7            { width: 400px; }
+  .columns-8            { width: 460px; }
+  .columns-9            { width: 520px; }
+  .columns-10           { width: 580px; }
+  .columns-11           { width: 640px; }
+  .columns-12           { width: 700px; }
+  .columns-13           { width: 760px; }
+  .columns-14           { width: 820px; }
+  .columns-15           { width: 880px; }
+  .columns-16           { width: 940px; }
   
   /* for offseting elements */
-  .offset-1            { margin-left: 80px  }
-  .offset-2            { margin-left: 140px }
-  .offset-3            { margin-left: 200px }
-  .offset-4            { margin-left: 260px }
-  .offset-5            { margin-left: 320px }
-  .offset-6            { margin-left: 380px }
-  .offset-7            { margin-left: 440px }
-  .offset-8            { margin-left: 500px }
-  .offset-9            { margin-left: 560px }
-  .offset-10           { margin-left: 620px }
-  .offset-11           { margin-left: 680px }
-  .offset-12           { margin-left: 780px }
-  .offset-13           { margin-left: 800px }
-  .offset-14           { margin-left: 860px }
-  .offset-15           { margin-left: 920px }
-  
-  .offset-one-third    { margin-left: 340px }
-  .offset-two-thirds   { margin-left: 660px }
-
+  .offset-1             { margin-left: 80px  }
+  .offset-2             { margin-left: 140px }
+  .offset-3             { margin-left: 200px }
+  .offset-4             { margin-left: 260px }
+  .offset-5             { margin-left: 320px }
+  .offset-6             { margin-left: 380px }
+  .offset-7             { margin-left: 440px }
+  .offset-8             { margin-left: 500px }
+  .offset-9             { margin-left: 560px }
+  .offset-10            { margin-left: 620px }
+  .offset-11            { margin-left: 680px }
+  .offset-12            { margin-left: 780px }
+  .offset-13            { margin-left: 800px }
+  .offset-14            { margin-left: 860px }
+  .offset-15            { margin-left: 920px }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -396,51 +372,47 @@ select:focus {
     width: 1100px;
   }
 
-  .columns-1                    { width: 50px; }
-  .columns-2                    { width: 120px; }
-  .columns-3                    { width: 190px; }
-  .columns-4                    { width: 260px; }
-  .columns-5                    { width: 330px; }
-  .columns-6                    { width: 400px; }
-  .columns-7                    { width: 470px; }
-  .columns-8                    { width: 540px; }
-  .columns-9                    { width: 610px; }
-  .columns-10                   { width: 680px; }
-  .columns-11                   { width: 750px; }
-  .columns-12                   { width: 820px; }
-  .columns-13                   { width: 890px; }
-  .columns-14                   { width: 960px; }
-  .columns-15                   { width: 1030px; }
-  .columns-16                   { width: 1100px; }
+  .columns-1            { width: 50px; }
+  .columns-2            { width: 120px; }
+  .columns-3            { width: 190px; }
+  .columns-4            { width: 260px; }
+  .columns-5            { width: 330px; }
+  .columns-6            { width: 400px; }
+  .columns-7            { width: 470px; }
+  .columns-8            { width: 540px; }
+  .columns-9            { width: 610px; }
+  .columns-10           { width: 680px; }
+  .columns-11           { width: 750px; }
+  .columns-12           { width: 820px; }
+  .columns-13           { width: 890px; }
+  .columns-14           { width: 960px; }
+  .columns-15           { width: 1030px; }
+  .columns-16           { width: 1100px; }
   
   /* for offseting elements */
-  .offset-1            { margin-left: 100px  }
-  .offset-2            { margin-left: 180px }
-  .offset-3            { margin-left: 260px }
-  .offset-4            { margin-left: 340px }
-  .offset-5            { margin-left: 420px }
-  .offset-6            { margin-left: 500px }
-  .offset-7            { margin-left: 580px }
-  .offset-8            { margin-left: 660px }
-  .offset-9            { margin-left: 740px }
-  .offset-10           { margin-left: 820px }
-  .offset-11           { margin-left: 900px }
-  .offset-12           { margin-left: 980px }
-  .offset-13           { margin-left: 1060px }
-  .offset-14           { margin-left: 1140px }
-  .offset-15           { margin-left: 1220px }
-  
-  .offset-one-third    { margin-left: 480px }
-  .offset-two-thirds   { margin-left: 800px }
+  .offset-1             { margin-left: 100px  }
+  .offset-2             { margin-left: 180px }
+  .offset-3             { margin-left: 260px }
+  .offset-4             { margin-left: 340px }
+  .offset-5             { margin-left: 420px }
+  .offset-6             { margin-left: 500px }
+  .offset-7             { margin-left: 580px }
+  .offset-8             { margin-left: 660px }
+  .offset-9             { margin-left: 740px }
+  .offset-10            { margin-left: 820px }
+  .offset-11            { margin-left: 900px }
+  .offset-12            { margin-left: 980px }
+  .offset-13            { margin-left: 1060px }
+  .offset-14            { margin-left: 1140px }
+  .offset-15            { margin-left: 1220px }
 }
 
-/* #Clearing from skeleton
+/* Clearing
 ================================================== */
-
-/* Self Clearing Goodness */
 .container:after,
 .clearfix:after,
-.row:after, {
+.row:before,
+.row:after {
   content: "."; 
   display: block; 
   height: 0; 
@@ -458,21 +430,6 @@ select:focus {
 /* float clearing for IE7 */
 *:first-child + html .clearfix {
   min-height: 1%;
-}
-
-/* Use clearfix class on parent to clear nested columns,
-or wrap each row of columns in a <div class="row"> */
-.clearfix:before,
-.clearfix:after,
-.row:before,
-.row:after {
-  content: "";
-  display: table;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0; 
-  clear: both;
 }
 
 .row,
