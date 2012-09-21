@@ -3,35 +3,79 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* typography */
 html, body, input, button, select, textarea {
-  font: 16px/24px "Helvetica Neue", Helvetica, arial, sans-serif;
+  font: 15px/25px "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #333;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   height: 100%;
 }
 
-/* Use border-box box model */
-* {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+a {
+  color: #3C80C3;
+  text-decoration: none;
 }
 
-a {
-  text-decoration: none;
-  -webkit-transition: color 200ms linear;
-  -moz-transition: color 200ms linear;
-  -ms-transition: color 200ms linear;
-  -o-transition: color 200ms linear;
-  transition: color 200ms linear;
+a:hover {
+  text-decoration: underline;
+}
+
+a:active, a:focus {
+  color: #1E4062;
 }
 
 p {
-padding-bottom: 10px;
+  padding-bottom: 15px;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #464646;
+  padding-bottom: 10px;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: -3px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
 }
 
 hr {
   border-top: 1px solid #e2e2e2;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
   margin: 0 0 20px 0;
 }
 
