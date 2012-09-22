@@ -83,12 +83,21 @@ h6 {
   letter-spacing: 1px;
 }
 
+pre, code {
+  font-size: 12px;
+  font-family: Monaco, Menlo, monospace;
+  padding: 5px 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #e2e2e2;
+  overflow: scroll;
+}
+
 hr {
   border-top: 1px solid #e2e2e2;
   border-right: none;
   border-bottom: none;
   border-left: none;
-  margin: 0 0 20px 0;
+  margin: 10px 0 30px 0;
 }
 
 
