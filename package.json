@@ -2,7 +2,7 @@
   "name": "simple-styles",
   "version": "0.0.1",
   "description": "super simple css focused on mobile-first design",
-  "keywords": [],
+  "keywords": ["css", "stylesheet", "styles"],
   "author": "sethvincent <sethvincent@gmail.com>",
   "dependencies": {},
   "devDependencies": {},
