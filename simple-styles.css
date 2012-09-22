@@ -1,7 +1,12 @@
 /* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}/* HTML5 display-role reset for older browsers */article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
 
-/* typography */
+/* 
+
+typography 
+
+*/
+
 html, body, input, button, select, textarea {
   font: 15px/25px "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #333;
@@ -85,22 +90,25 @@ hr {
   margin: 0 0 20px 0;
 }
 
-small {
-  font-size: 12px;
-}
+
+/* 
+
+utility classes
+
+*/
 
 /* a snippet for smoother web-font loading, often used with typekit.com fonts */
 .wf-loading {
   visibility: hidden;
 }
 
-/* utility classes */
 
-.fixed {
-  position: fixed;
-}
+/*
 
-/* forms */
+forms
+
+*/
+
 .button, 
 button, 
 input[type="submit"], 
@@ -190,7 +198,12 @@ select:focus {
   box-shadow:  0 0 1px rgba(0,0,0,.2);
 }
 
-/* layout and grid */
+
+/*
+
+layout and grid
+
+*/
 
 .left { 
   margin-left: 0;
@@ -325,8 +338,8 @@ select:focus {
     margin: 20px 0px 0px 20px; 
   }
 
-  .columns-1            { width: 20px;  }
-  .columns-2            { width: 60px;  }
+  .columns-1            { width: 20px; }
+  .columns-2            { width: 60px; }
   .columns-3            { width: 100px; }
   .columns-4            { width: 140px; }
   .columns-5            { width: 180px; }
@@ -343,8 +356,8 @@ select:focus {
   .columns-16           { width: 640px; }
   
   /* for offseting elements */
-  .offset-1             { margin-left: 40px  }
-  .offset-2             { margin-left: 80px  }
+  .offset-1             { margin-left: 40px }
+  .offset-2             { margin-left: 80px }
   .offset-3             { margin-left: 120px }
   .offset-4             { margin-left: 180px }
   .offset-5             { margin-left: 220px }
@@ -389,7 +402,7 @@ select:focus {
   .columns-16           { width: 940px; }
   
   /* for offseting elements */
-  .offset-1             { margin-left: 60px  }
+  .offset-1             { margin-left: 60px }
   .offset-2             { margin-left: 120px }
   .offset-3             { margin-left: 180px }
   .offset-4             { margin-left: 240px }
@@ -447,8 +460,13 @@ select:focus {
   .offset-15            { margin-left: 1050px }
 }
 
-/* Clearing
-================================================== */
+
+/* 
+
+clearing
+
+*/
+
 .container:after,
 .clearfix:after,
 .row:before,
