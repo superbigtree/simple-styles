@@ -43,9 +43,6 @@ Do what works for you.
   - i revised some of the grid stuff based on what i learned from bootstrap.
 - *eric meyer's css reset*
 
-### resources I'm using to put this together:
-- http://line25.com/articles/youre-doing-it-wrong-common-html-tag-misuse
-- 
 
 ## License 
 
