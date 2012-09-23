@@ -5,5 +5,10 @@
   "keywords": ["css", "stylesheet", "styles"],
   "author": "sethvincent <sethvincent@gmail.com>",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "stylus": "*",
+    "nib": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-css": "*"
+  }
 }
