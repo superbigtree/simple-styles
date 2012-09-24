@@ -4,18 +4,31 @@ module.exports = function(grunt) {
     stylus: {
       compile: {
         options: {
-          compress: true,
+          compress: false,
           paths: ['styles']
         },
         files: {
-          'exp.css': 'styles/main.styl'
+          'simple-styles.css': 'styles/main.styl'
         }
+      }
+    },
+    
+    csslint: {
+        base_theme: {
+            src: "simple-styles.css",
+        }
+    },
+    
+    cssmin: {
+      dist: {
+        src: 'simple-styles.css',
+        dest: 'simple-styles.min.css'
       }
     }
   
   });
   
   grunt.loadNpmTasks('grunt-contrib-stylus');
-  
-  grunt.registerTask('default', 'stylus');
+  grunt.loadNpmTasks('grunt-css');
+  grunt.registerTask('default', 'stylus cssmin');
 };

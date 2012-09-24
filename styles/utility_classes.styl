@@ -1,0 +1,44 @@
+/* 
+
+utility classes
+
+*/
+
+/* a snippet for smoother web-font loading, often used with typekit.com fonts */
+.wf-loading {
+  visibility: hidden;
+}
+
+/* 
+
+clearing
+
+*/
+
+.container:after,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+  font-size: 0;
+}
+
+/* float clearing for IE6 */
+* html .clearfix {
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*:first-child + html .clearfix {
+  min-height: 1%;
+}
+
+.row,
+.clearfix {
+  *zoom: 1;
+}
