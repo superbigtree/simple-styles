@@ -260,7 +260,7 @@ hr {
   padding: 0;
 }
 [class*="columns-"] {
-  margin: 20px auto 0 auto;
+  margin: 0px auto;
 }
 .columns-1,
 .columns-2,
@@ -302,7 +302,7 @@ hr {
     width: 440px;
   }
   [class*="columns-"] {
-    margin: 20px auto 0px auto;
+    margin: 0px auto;
   }
   .columns-1,
   .columns-2,
@@ -328,7 +328,7 @@ hr {
     width: 560px;
   }
   [class*="columns-"] {
-    margin: 20px auto 0px auto;
+    margin: 0px auto;
   }
   .columns-1,
   .columns-2,
@@ -359,7 +359,7 @@ hr {
   [class*="columns-"] {
     float: left;
     display: inline;
-    margin: 20px 0px 0px 20px;
+    margin: 0px 0px 0px 20px;
   }
   .columns-1 {
     width: 20px;
