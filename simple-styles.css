@@ -136,6 +136,8 @@ textarea {
   color: #333;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+}
+html, body {
   height: 100%;
 }
 a {
