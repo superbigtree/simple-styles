@@ -2,10 +2,20 @@
   "name": "simple-styles",
   "version": "0.0.2",
   "description": "super simple css focused on mobile-first design",
-  "keywords": ["css", "stylesheet", "styles"],
+  "keywords": [
+    "css",
+    "stylesheet",
+    "styles",
+    "sass",
+    "scss",
+    "responsive",
+    "mobile"
+  ],
   "author": "sethvincent <sethvincent@gmail.com>",
   "dependencies": {},
   "devDependencies": {
-    "grunt-sass": "*"
+    "grunt": "~0.4.0rc5",
+    "grunt-contrib-mincss": "git://github.com/gruntjs/grunt-contrib-mincss.git#master",
+    "grunt-contrib-sass": "git://github.com/gruntjs/grunt-contrib-sass.git#master"
   }
 }
