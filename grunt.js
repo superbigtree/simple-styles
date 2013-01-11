@@ -1,34 +1,14 @@
 module.exports = function(grunt) {
-
   grunt.initConfig({
-    stylus: {
-      compile: {
-        options: {
-          compress: false,
-          paths: ['styles']
-        },
-        files: {
-          'simple-styles.css': 'styles/main.styl'
-        }
-      }
-    },
-    
-    csslint: {
-        base_theme: {
-            src: "simple-styles.css",
-        }
-    },
-    
-    cssmin: {
+    sass: {
       dist: {
-        src: 'simple-styles.css',
-        dest: 'simple-styles.min.css'
+        files: {
+          'simple-styles.css': 'simple-styles.scss'
+        }
       }
     }
-  
   });
   
-  grunt.loadNpmTasks('grunt-contrib-stylus');
-  grunt.loadNpmTasks('grunt-css');
-  grunt.registerTask('default', 'stylus cssmin');
+  grunt.loadNpmTasks('grunt-sass');
+  grunt.registerTask('default', 'lint sass');
 };

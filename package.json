@@ -1,14 +1,11 @@
 {
   "name": "simple-styles",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "super simple css focused on mobile-first design",
   "keywords": ["css", "stylesheet", "styles"],
   "author": "sethvincent <sethvincent@gmail.com>",
   "dependencies": {},
   "devDependencies": {
-    "stylus": "*",
-    "nib": "*",
-    "grunt-contrib-stylus": "*",
-    "grunt-css": "*"
+    "grunt-sass": "*"
   }
 }
