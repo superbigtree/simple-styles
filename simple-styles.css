@@ -4,7 +4,7 @@ input,
 button,
 select,
 textarea {
-  font: 16px/26px "Helvetica Neue", Helvetica, arial, sans-serif;
+  font: 16px/1.2 "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -27,6 +27,7 @@ h5,
 h6 {
   margin: 0px;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 a {
