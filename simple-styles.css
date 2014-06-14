@@ -70,23 +70,24 @@ img {
 /* mobile size */
 .container {
   width: 100%;
-  padding: 0px 10%;
+  padding: 0px 20px;
   margin: 0px auto;
 }
 
 /* tablet size */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 720px) {
   .container {
-    width: 540px;
-    padding: 0px 20px;
+    width: 680px;
   }
 }
+
 /* desktop size */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1000px) {
   .container {
-    width: 800px;
+    width: 960px;
   }
 }
+
 /* clearfix */
 .container:after {
   content: " ";
